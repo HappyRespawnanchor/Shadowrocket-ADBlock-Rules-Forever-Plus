@@ -6,6 +6,7 @@
 #
 # 从 https://github.com/Johnshall/cn-blocked-domain 中获取GFWList的补充
 # 感谢 https://github.com/Loyalsoldier/cn-blocked-domain
+# 感谢 https://github.com/Loukky/gfwlist-by-loukky
 #
 
 
@@ -99,7 +100,8 @@ def getURLs(url):
 
 # main
 
-rule = get_rule(rules_url='https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt', ruleType='base64')
+# rule = get_rule(rules_url='https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt', ruleType='base64')
+rule = get_rule(rules_url='https://raw.githubusercontent.com/Loukky/gfwlist-by-loukky/master/gfwlist.txt', ruleType='base64')
 # 从 https://github.com/Johnshall/cn-blocked-domain 中获取GFWList的补充
 rule += get_rule('https://raw.githubusercontent.com/Johnshall/cn-blocked-domain/release/domains.txt')
 

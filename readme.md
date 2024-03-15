@@ -27,7 +27,7 @@
 
 <details>
 
-- 黑名单由最新版 [GFWList](https://github.com/gfwlist/gfwlist) 自动转换；
+- 黑名单由最新版 [GFWList-by-loukky](https://github.com/Loukky/gfwlist-by-loukky)（[GFWList](https://github.com/gfwlist/gfwlist) 的一个分支）(https://github.com/gfwlist/gfwlist) 自动转换；
 - 加入 [Greatfire Analyzer](https://github.com/Loyalsoldier/cn-blocked-domain) 检测到的屏蔽域名；
 - 自动转换最新版本的 `EasyList`, `Eaylist China`, `Peter Lowe 广告和隐私跟踪域名`，`乘风规则` 为 SR 规则，全面去除广告且去除重复；
 - 包括自定义的广告过滤规则，针对 iOS 端的网页广告、App 广告和视频广告；

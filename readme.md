@@ -22,9 +22,9 @@ ___
 <!-- **正在使用手机浏览本页面的用户 [请点击这里](https://happyrespawnanchor.github.io/Shadowrocket-ADBlock-Rules-Forever-Plus/) ，查看完整的说明文档。** -->
 **本规则具有以下特点：**
 
-<details>
-- 包含一个哔哩哔哩代理组，方便观看港澳台资源；
-- 黑名单由最新版 [GFWList-by-loukky](https://github.com/Loukky/gfwlist-by-loukky)（[GFWList](https://github.com/gfwlist/gfwlist) 的一个分支）(https://github.com/gfwlist/gfwlist) 自动转换；
+
+- 包含一个哔哩哔哩策略组，方便观看港澳台资源；
+- 黑名单由最新版 [GFWList-by-loukky](https://github.com/Loukky/gfwlist-by-loukky)（[GFWList](https://github.com/gfwlist/gfwlist) 的一个分支）自动转换；
 - 加入 [Greatfire Analyzer](https://github.com/Loyalsoldier/cn-blocked-domain) 检测到的屏蔽域名；
 - 自动转换最新版本的 `EasyList`, `Eaylist China`, `Peter Lowe 广告和隐私跟踪域名`，`乘风规则` 为 SR 规则，全面去除广告且去除重复；
 - 包括自定义的广告过滤规则，针对 iOS 端的网页广告、App 广告和视频广告；
@@ -32,10 +32,10 @@ ___
 - 专门针对 ShadowRocket 开发，可以保证与 SR 的兼容性；
 - 将 [Apple及其CDN域名](https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/apple.china.conf) 进行优化；
 - 方便的快捷指令与自动化联动，每天自动更新规则；
-- 增加使用代理组的懒人配置；
+- 增加使用策略组的懒人配置；
 - 由于世界排名 top 500 网站列表已无法通过无账户/免费方式取得，故原来的 top500 检测方法失效。我已根据旧的 top500 榜单重构了新的 top500 网站连接情况表。**同时，希望大家可以帮助 pull requests 一份最新的 top500 榜单: [格式](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever/blob/build/factory/resultant/top500_manual.list)**
 - **所有发布的规则都会在每天北京时间 8:00 更新发布**
-</details>
+
 
 ## 规则列表
 

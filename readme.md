@@ -316,7 +316,9 @@ https://happyrespawnanchor.github.io/Shadowrocket-ADBlock-Rules-Forever-Plus/laz
 ![JetBrains Logo (Main) logo](https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg)
 
 ### 本项目引用：  
-[gfwlist](https://github.com/gfwlist/gfwlist)  
+[iOS_Rule_Script](https://github.com/blackmatrix7/ios_rule_script/)  
+[GFWList-by-loukky](https://github.com/Loukky/gfwlist-by-loukky)  
+[GFWList](https://github.com/gfwlist/gfwlist)  
 [Greatfire Analyzer](https://github.com/Loyalsoldier/cn-blocked-domain)   
 [乘风广告过滤规则](https://github.com/xinggsf/Adblock-Plus-Rule)  
 [EasyList China](https://adblockplus.org/)  

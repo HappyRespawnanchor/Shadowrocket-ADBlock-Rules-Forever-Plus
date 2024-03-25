@@ -446,18 +446,12 @@ hoyolab.com
 # 绕过bing的中国ip检测
 location.microsoft.com
 
-# devv
-devv.ai
-
 # 绕过蔚蓝档案日服的中国IP检测
 ba-jp-sdk.bluearchive.jp
 
 # 对Minecraft java版官方下载源进行代理（加快速度）
 resources.download.minecraft.net
-piston-data.mojang.com
-
-# GitHub在线编辑器
-github.dev
+piston-meta.mojang.com
 
 # 修复Minecraft Java版 Pojavlaucher iOS版正版账号没法加载3d头颅头像的问题
 mc-heads.net

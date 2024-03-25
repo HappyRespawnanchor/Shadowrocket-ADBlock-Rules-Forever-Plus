@@ -8,5 +8,7 @@
 {{gfwlist}}
 
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/AppleNews/AppleNews.list,PROXY
-
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BiliBili/BiliBili.list,哔哩哔哩
+[Proxy Group]
+哔哩哔哩 = select,DIRECT,PROXY,REJECT,policy-select-name=PROXY,interval=86400,timeout=5,url=http://www.gstatic.com/generate_204
 FINAL,direct

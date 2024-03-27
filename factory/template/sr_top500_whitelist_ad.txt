@@ -25,7 +25,8 @@ IP-CIDR,127.0.0.0/8,DIRECT
 
 DOMAIN-SUFFIX,app.bilibili.com,「哔哩哔哩港澳台」（看港澳台最少得包括的域名） # 代理这个域名你才能用B站APP搜索到港澳台特供番
 DOMAIN-SUFFIX,grpc.biliapi.net,「哔哩哔哩港澳台」（看港澳台最少得包括的域名） # 代理这个域名看港澳台番才能加载不会显示“根据版权方要求，你的区域不能观看本片”
-DOMAIN-SUFFIX,api.bilibili.com,「哔哩哔哩港澳台」（看港澳台最少得包括的域名） # 代理这个域名港澳台番评论区才能加载
+DOMAIN-SUFFIX,api.bilibili.com,「哔哩哔哩港澳台」（看港澳台最少得包括的域名） # 代理这个域名才不会无限卡加载
+DOMAIN-SUFFIX,api.biliapi.net,「哔哩哔哩港澳台」（看港澳台最少得包括的域名） # 代理这个域名港澳台番评论区才能加载
 DOMAIN-SUFFIX,upos-hz-mirrorakam.akamaized.net,「哔哩哔哩港澳台」（看港澳台最少得包括的域名） # 代理这个看视频才不会一直黑着卡着得自己挪下进度条才能开始放视频
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BiliBili/BiliBili.list,「哔哩哔哩」
 [Proxy Group]

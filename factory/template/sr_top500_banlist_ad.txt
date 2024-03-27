@@ -10,8 +10,13 @@
 {{ad}}
 {{gfwlist}}
 
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/AppleNews/AppleNews.list,PROXY
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BiliBili/BiliBili.list,哔哩哔哩
+DOMAIN-SUFFIX,app.bilibili.com,「哔哩哔哩港澳台」（看港澳台最少得包括的域名） # 代理这个域名你才能用B站APP搜索到港澳台特供番
+DOMAIN-SUFFIX,grpc.biliapi.net,「哔哩哔哩港澳台」（看港澳台最少得包括的域名） # 代理这个域名看港澳台番才能加载不会显示“根据版权方要求，你的区域不能观看本片”
+DOMAIN-SUFFIX,api.bilibili.com,「哔哩哔哩港澳台」（看港澳台最少得包括的域名） # 代理这个域名港澳台番评论区才能加载
+DOMAIN-SUFFIX,upos-hz-mirrorakam.akamaized.net,「哔哩哔哩港澳台」（看港澳台最少得包括的域名） # 代理这个看视频才不会一直黑着卡着得自己挪下进度条才能开始放视频
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BiliBili/BiliBili.list,「哔哩哔哩」
 [Proxy Group]
-哔哩哔哩 = select,DIRECT,PROXY,REJECT,policy-select-name=PROXY,interval=86400,timeout=5,url=http://www.gstatic.com/generate_204
-FINAL,direct
+「哔哩哔哩」 = select,DIRECT,『香港』,『台湾』,PROXY,policy-select-name=DIRECT,interval=86400,timeout=5,url=http://www.gstatic.com/generate_204
+「哔哩哔哩港澳台」（看港澳台最少得包括的域名） = select,「哔哩哔哩」,『香港』,『台湾』,PROXY,policy-select-name=『香港』,interval=86400,timeout=5,url=http://www.gstatic.com/generate_204
+『香港』 = select,policy-select-name=🇭🇰HONG KONG 緒山 まひろ「真寻」,interval=86400,timeout=5,url=http://www.gstatic.com/generate_204,policy-regex-filter=HK|Hong|hong|香港|深港|沪港|京港|港
+『台湾』 = select,interval=86400,timeout=5,url=http://www.gstatic.com/generate_204,policy-regex-filter=TW|Taiwan|taiwan|台湾|台北|台中|新北|彰化

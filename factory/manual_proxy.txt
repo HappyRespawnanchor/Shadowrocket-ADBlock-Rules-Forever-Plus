@@ -458,4 +458,10 @@ mc-heads.net
 # 越狱下载源加速
 apt.thebigboss.org
 repo.chariz.com
-https://ellekit.space/
+ellekit.space
+
+# 由于上游未合并，临时放在这里
+linux.do # 代理可显著加快访问速度
+gfw.report
+mail.proton.me
+tukaani.org

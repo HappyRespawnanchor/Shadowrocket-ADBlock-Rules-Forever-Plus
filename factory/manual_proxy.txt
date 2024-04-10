@@ -459,9 +459,3 @@ mc-heads.net
 apt.thebigboss.org
 repo.chariz.com
 ellekit.space
-
-# 由于上游未合并，临时放在这里
-linux.do # 代理可显著加快访问速度
-gfw.report
-mail.proton.me
-tukaani.org

@@ -51,7 +51,7 @@ RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/r
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/AppleNews/AppleNews.list,PROXY
 [Proxy Group]
 「哔哩哔哩」 = select,DIRECT,『香港』,『台湾』,PROXY,policy-select-name=DIRECT,interval=86400,timeout=5,url=http://www.gstatic.com/generate_204
-「哔哩哔哩港澳台」（看港澳台最少得包括的域名） = select,「哔哩哔哩」,『香港』,『台湾』,PROXY,policy-select-name=「哔哩哔哩」,interval=86400,timeout=5,url=http://www.gstatic.com/generate_204
+「哔哩哔哩港澳台」（看港澳台最少得包括的域名） = select,「哔哩哔哩」,『香港』,『台湾』,PROXY,policy-select-name=『香港』,interval=86400,timeout=5,url=http://www.gstatic.com/generate_204
 「Telegram」 = select,PORXY, timeout=5,interval=86400,url=http://www.gstatic.com/generate_204
 『香港』 = select,interval=86400,timeout=5,url=http://www.gstatic.com/generate_204,policy-regex-filter=HK|Hong|hong|香港|深港|沪港|京港|港
 『台湾』 = select,interval=86400,timeout=5,url=http://www.gstatic.com/generate_204,policy-regex-filter=TW|Taiwan|taiwan|台湾|台北|台中|新北|彰化
